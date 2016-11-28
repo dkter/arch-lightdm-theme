@@ -181,7 +181,7 @@ function pad(a,b){return(1e15+a+"").slice(-b)}
 function getImg(){
     selectBG = Math.floor(Math.random() * 46);
 
-document.getElementsByTagName('body')[0].style.backgroundImage = 'url(file:///usr/share/wallpapers/' + pad(selectBG, 2) + '.png)';
+document.getElementsByTagName('body')[0].style.backgroundImage = 'url(wallpapers/' + pad(selectBG, 2) + '.png)';
 
     // start_authentication('YOURUSERNAME'); // lazy hard coding because I'm lazy. if you want the password
 	                		     // box to autoshow for a specific user like me, uncomment this
